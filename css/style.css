@@ -1,0 +1,342 @@
+body {
+  margin: auto;
+  background: #f2f2f2; }
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #ffffff; }
+
+.header1 {
+  max-width: 100%;
+  height: 70px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .header1 .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0.3; }
+    .header1 .content div {
+      padding-left: 20px;
+      font-size: 16px; }
+      .header1 .content div .gray {
+        color: gray;
+        font-size: 14px; }
+
+.nav1 {
+  max-width: 1000px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  font-size: 16px; }
+  .nav1 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .nav1 ul li {
+      list-style: none; }
+      .nav1 ul li a {
+        color: gray;
+        padding: 0 7px;
+        text-decoration: none; }
+      .nav1 ul li .giohang {
+        background-color: black;
+        padding: 7px; }
+
+.tieude {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .tieude div {
+    margin: 0;
+    padding: 0; }
+    .tieude div h3 {
+      font-size: 40px;
+      font-weight: bold;
+      color: red;
+      margin: 0;
+      padding: 0; }
+    .tieude div p {
+      margin: 0;
+      padding: 0;
+      letter-spacing: 1px;
+      font-style: italic; }
+  .tieude .search {
+    display: flex;
+    position: relative; }
+    .tieude .search input {
+      display: block;
+      margin-top: 1px;
+      padding: 7px;
+      -moz-outline-radius-topleft: 30%;
+      -moz-outline-radius-bottomleft: 30%;
+      -moz-outline-radius-topleft: 30%;
+      -moz-outline-radius-bottomleft: 30%;
+      text-rendering: none;
+      border-style: none;
+      border-image: none;
+      outline-color: black; }
+    .tieude .search .timkiem {
+      display: block;
+      position: absolute;
+      padding: 5px 7px;
+      background: #000;
+      margin-left: 150px;
+      border-bottom-right-radius: 30%;
+      border-top-right-radius: 30%; }
+
+.navbarbig {
+  margin: auto;
+  max-width: 1000px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: -0.2px; }
+  .navbarbig ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .navbarbig ul li {
+      list-style: none;
+      padding-left: 9px; }
+      .navbarbig ul li a {
+        text-decoration: none;
+        color: black; }
+
+.line {
+  max-width: 1000px;
+  margin: auto;
+  height: 1px;
+  background-color: gray; }
+
+.slider {
+  max-width: 1000px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .slider div {
+    text-align: center; }
+    .slider div img {
+      width: 50%; }
+  .slider .imgbigwrap .imgbig {
+    width: 100%; }
+
+.brand {
+  max-width: 1000px;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.typeshop {
+  max-width: 1000px;
+  margin: auto;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .typeshop div {
+    position: relative;
+    text-align: center;
+    color: white; }
+    .typeshop div p {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: gray;
+      padding: 1rem;
+      opacity: 0.7;
+      text-align: center;
+      margin-left: 90px;
+      margin-top: 120px; }
+    .typeshop div img {
+      width: 300px;
+      height: 200px; }
+
+.clothes {
+  max-width: 1000px;
+  margin: auto;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1px; }
+  .clothes .item .imgCart {
+    height: 200px; }
+  .clothes .price .span_red {
+    color: red;
+    font-style: bold;
+    font-weight: 900; }
+
+.picture {
+  max-width: 1000px;
+  margin: auto;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .picture img {
+    width: 25%;
+    height: 500px; }
+  .picture .picture_mid {
+    width: 50%;
+    height: 500px; }
+
+.navClothes {
+  max-width: 1000px;
+  margin: auto;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navClothes ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .navClothes ul li {
+      list-style: none; }
+      .navClothes ul li a {
+        text-decoration: none;
+        color: black;
+        padding-left: 1rem;
+        border-right: 2px solid gray;
+        padding-right: 0.7rem; }
+    .navClothes ul div {
+      background-color: #3bb1ea; }
+      .navClothes ul div i {
+        color: white;
+        padding: 20px; }
+
+.lineClothes {
+  max-width: 1000px;
+  margin: auto;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .lineClothes .blue {
+    width: 15%;
+    height: 2px;
+    background-color: #3bb1ea; }
+  .lineClothes .gray {
+    width: 90%;
+    height: 2px;
+    background-color: gray; }
+
+.text {
+  max-width: 1000px;
+  margin: auto;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  color: gray;
+  text-align: center;
+  margin-bottom: 30px; }
+  .text div {
+    width: 50%; }
+    .text div h3 {
+      color: black; }
+    .text div .search {
+      display: flex;
+      position: relative; }
+      .text div .search input {
+        display: block;
+        margin-top: 4px;
+        margin-left: 2px;
+        padding: 7px 100px;
+        -moz-outline-radius-topleft: 30%;
+        -moz-outline-radius-bottomleft: 30%;
+        -moz-outline-radius-topleft: 30%;
+        -moz-outline-radius-bottomleft: 30%;
+        text-rendering: none;
+        border-style: none;
+        border-image: none;
+        outline-color: black; }
+      .text div .search .timkiem {
+        width: 30%;
+        display: block;
+        margin: 4px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 6px 7px;
+        background: #000;
+        margin-left: 350px;
+        border-bottom-right-radius: 20%;
+        border-top-right-radius: 20%;
+        color: white;
+        font-size: 16px; }
+  .text .text_content {
+    border-right: 1px solid gray; }
+    .text .text_content h3 {
+      color: #000; }
+    .text .text_content a {
+      text-decoration: none;
+      color: #000; }
+
+.followus {
+  padding-top: 30px;
+  max-width: 1000px;
+  margin: auto;
+  height: 30px;
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px; }
+  .followus i {
+    padding-top: 5px;
+    width: 40px;
+    height: 35px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    text-align: center; }
+
+footer {
+  max-width: 1000px;
+  margin: auto;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: gray;
+  font-size: 17px; }
+  footer div {
+    width: 230px;
+    height: 300px; }
+  footer div {
+    width: 310px;
+    height: 200px; }
+    footer div h3 {
+      color: #000; }
+    footer div .contact {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      footer div .contact .imgfooter {
+        width: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0; }
